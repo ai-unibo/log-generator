@@ -9,26 +9,21 @@ In this work, we report our experience in the design of a generator of synthetic
 
 The work at hand presents our abductive approach to log synthesis as well as a study on positive and negative trace generation in case of open and closed model specification. The theoretical approach has been concretely employed in the implementation of a first sotware prototype for synthetic log generation.
 
-### Download and Install
-Please find at the bottom of this page the sources (and executables, it's Prolog!) of the Synthetic Log Generator.
-
-#### Pre-requisites
+### Pre-requisites
 The prototype is built upon the SCIFF Proof Procedure, which in turn is a prolog-based program. Due to the use of some specific Prolog libraries, not all the Prolog interpreters/compilers are suitable for executing the SCIFF. The current prototype has been developed and tested using SWI-Prolog 7.2.3. More recent versions (should) work fine as well.
 
-Download the lates SWI_Prolog interpreter suitable for your platform from the SWI-Prolog website.
-Install the SWI-Prolog interpreter following the instrcutions provided with the interpreter.
-If everything goes fine, you should be able to open a SWI-Prolog interpreter and to pose few simple queries. For example, typing "pwd." at the SWI console (without quotation marks), should print out the current working directory.
+Download the lates SWI_Prolog interpreter suitable for your platform from the SWI-Prolog website http://www.swi-prolog.org.
+Install the SWI-Prolog interpreter following the instructions provided with the interpreter.
+If everything goes fine, you should be able to open a SWI-Prolog interpreter and to pose few simple queries. For example, typing `pwd.` at the SWI console, should print out the current working directory.
 
-Download the LogGen zip file that you can find at the bottom of this page. You will find different versions, each one named with a timestamp, and the first one with the label "LATEST": usually this is the most stable and reliable version.
-Expand the zip content on to a writable directory in your file system. Please take care that the folder LogGen is writable: in order to work, our prototype needs to write on the disk some temp files, hence wrting rights are mandatory.
-Double-click on the file "AlpBPM.pl": if you installed SWI-pl correctly, the double click action will invoke the SWI-pl interpreter, and the AlpBPM.pl file will be automatically loaded/consulted.
+
+### Download and Execution instructions
+Please clone the repository and find the sources (and executables, it's Prolog!) of the Synthetic Log Generator.
+
+Double-click on the file `AlpBPM.pl`: if you installed SWI-pl correctly, the double click action will invoke the SWI-pl interpreter, and the `AlpBPM.pl` file will be automatically loaded/consulted.
 If no error messages appear, you are ready to experiment with our prototype.
 
-### Instructions
 The SCIFF Trace generator is an abductive logic program which takes as input a business process model (specified through procedural or declarative contraints) and generates as output synthetic logs containing positive and negative traces according to a set of specified generation options.
-
-#### Quick start
-Download and install SWI-Prolog from http://www.swi-prolog.org. Open the file `AlpBPM.pl` with SWI-Prolog.
 
 You can execute a first generation example from a procedural business model by running:
 ```

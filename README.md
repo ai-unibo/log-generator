@@ -41,12 +41,12 @@ The results of the generation can be found in the OUTPUT/ directory.
 In order to run your generation process, you have to call the `trace_generation_negatives/4` predicate, which takes the following parameters:
 ```
 ?- trace_generation_negatives(
-          Model   					%% the procedural/declarative model encoded in intermediate coding language
-	  	      						%% e.g., [start(a), xor_split(a,[b,c]), seq(c,d), seq(b,e), seq(d,e) ] 
-        , ActivityList				%% the list of all possible activities that may occurr 
-									%% e.g., [a,b,c,d,e,f]
+          Model   			%% the procedural/declarative model encoded in intermediate coding language
+	  	      				%% e.g., [start(a), xor_split(a,[b,c]), seq(c,d), seq(b,e), seq(d,e) ] 
+        , ActivityList		%% the list of all possible activities that may occurr 
+							%% e.g., [a,b,c,d,e,f]
         , FileNameForSavingTraces	%% the path of the file where the generated log will be saved
-        , Options  					%% the generation options (see the following for details)
+        , Options  			%% the generation options (see the following for details)
     ).
 ```
 

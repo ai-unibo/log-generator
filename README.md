@@ -21,7 +21,11 @@ If everything goes fine, you should be able to open a SWI-Prolog interpreter and
 Please clone the repository and find the sources (and executables, it's Prolog!) of the Synthetic Log Generator.
 
 Double-click on the file `AlpBPM.pl`: if you installed SWI-pl correctly, the double click action will invoke the SWI-pl interpreter, and the `AlpBPM.pl` file will be automatically loaded/consulted.
-If no error messages appear, you are ready to experiment with our prototype.
+If no error messages appear, you are ready to experiment with our prototype. 
+In case the module is not automatically loaded, you can submit the following goal:
+```
+?- ['AlpBPM']. 
+```
 
 The SCIFF Trace generator is an abductive logic program which takes as input a business process model (specified through procedural or declarative contraints) and generates as output synthetic logs containing positive and negative traces according to a set of specified generation options.
 

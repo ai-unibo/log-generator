@@ -1,5 +1,14 @@
 # log-generator
-Synthetic Log Generation through Abduction
+This sofware is based on the theoretical approach described in the following scientifical papers:
+
+Daniela Loreti, Federico Chesani, Anna Ciampolini, and Paola Mello. **Generating synthetic positive and negative business process traces through abduction.** Knowledge and Information Systems, Jun 2019. https://doi.org/10.1007/s10115-019-01372-z 
+
+Federico Chesani, Chiara Di Francescomarino, Chiara Ghidini, Daniela Loreti, Fabrizio Maria Mag- gi, Paola Mello, Marco Montali, Vasyl Skydanienko, and Sergio Tessaris. **Towards the generation of the ”perfect” log using abductive logic programming.** In Alberto Casagrande and Eugenio G. Omodeo, editors, Proceedings of the 34th Italian Conference on Computational Logic, Trieste, Italy, June 19-21, 2019., volume 2396 of CEUR Workshop Proceedings, pages 179–192. CEUR-WS.org, 2019. http://ceur-ws.org/Vol-2396/paper26.pdf
+
+Federico Chesani, Anna Ciampolini, Daniela Loreti, and Paola Mello. **Abduction for generating synthetic traces.** In Ernest Teniente and Matthias Weidlich, editors, Business Process Management Workshops - BPM 2017 International Workshops, Barcelona, Spain, September 10-11, 2017, Revised Papers, volume 308 of Lecture Notes in Business Information Processing, pages 151–159. Springer, 2017. https://doi.org/10.1007/978-3-319-74030-0_11
+
+
+### Pourpose of Synthetic Log Generation through Abduction
 
 As the recent years have seen the rise of a new discipline commonly addressed as Process Mining, focused on the analysis and management of business processes, two tasks have gained increasing attention in research: process discovery and compliance monitoring. In both these fields of Process Mining, the pressing demand for event log benchmarks with predefined characteristics - useful to evaluate the process model and the techniques for its discovery - has determined the design of various methodologies and tools for synthetic log generation.
 
